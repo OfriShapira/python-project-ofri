@@ -40,7 +40,7 @@ class Car:
 
         # If the drive mode is on - throw exception
         if self.is_drive_on:
-            raise ValueError("DRIVE_ERROR_1")
+            raise ValueError(environ["DRIVE_ERROR_1"])
 
         # if the gear that been inserted is out of boundaries, throw exception
         if current_gear > int(environ["GEAR_MAX"]) or current_gear <= 0:
@@ -107,28 +107,49 @@ class Car:
         :param fuel_to_add: the amount of fuel to add
         :return: True if the fuel been added successfully
         """
-        # check if the fuel amount to add is valid, if so, add the fuel
+
+        #  check if the engine is off
+        if self.is_drive_on or self.is_engine_on:
+            raise PermissionError(environ["PERMISSION_ERROR"])
+
+        #  check if the fuel amount value is of the right type
+        if not isinstance(fuel_to_add, (int, float)):
+            raise TypeError(environ["TYPE_ERROR"].format('fuel level value'))
+
+        # check if the fuel amount value is below 0
+        if fuel_to_add < 0:
+            raise ValueError(environ["VALUE_ERROR"].format('fuel'))
+
+        # check if the fuel amount to add is valid, if so, add it to the tank
         if fuel_to_add + self.fuel > float(environ["FUEL"]):
             raise OverflowError(environ["FUEL_ERROR_TOO_HIGH"])
-        elif fuel_to_add * float(environ["FUEL_PRICE"]) > float(environ["MONEY"]):
+
+        if fuel_to_add * float(environ["FUEL_PRICE"]) > float(environ["MONEY"]):
             raise OverflowError(environ["FUEL_ERROR_TOO_EXPENSIVE"])
 
-        # if we reached here, add the fuel to the tank
-        else:
-            self.fuel += fuel_to_add
-            self.money -= (fuel_to_add * float(environ["FUEL_PRICE"]))
-            print(environ["ADDED_FUEL"].format(fuel_to_add, self.fuel, self.money))
-            return True
+        # if we reached here, we can add the fuel into the tank
+        self.fuel += fuel_to_add
+        self.money -= (fuel_to_add * float(environ["FUEL_PRICE"]))
+        print(environ["ADDED_FUEL"].format(fuel_to_add, self.fuel, self.money))
+        return True
 
     def consume(self, km):
         """
         Name: Ofri Shapira\n
         Date: 22/1/22\n
-        Method to calculate the consumption and apply it.
+        Method to calculate the consumption and apply it
         :param km: the km value that the car drove
         :return: True if the car consumed successfully
         """
-        # Decide the liters amount that the drive been consumed
+        # check if the km value is negative
+        if km < 0:
+            raise ValueError(environ["VALUE_ERROR"].format('km'))
+
+        # check if the km value is int or float, otherwise throw exception
+        if not isinstance(km, (int, float)):
+            raise TypeError(environ["TYPE_ERROR"].format('km'))
+
+        # convert the km to liters
         liter_to_fuel = km / float(environ["LITER_T0_KM"])
         if liter_to_fuel > float(environ["FUEL"]):
             raise OverflowError(environ["KM_TOO_HIGH"])
