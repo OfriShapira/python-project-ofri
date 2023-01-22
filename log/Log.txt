@@ -58,3 +58,221 @@ Info: .
 
 #2023-01-22 12:24:13.202453.
 Info: .
+
+#2023-01-22 12:51:46.647872.
+Info: .
+
+#2023-01-22 12:51:49.579566.
+Info: You need to start the engine first.
+
+#2023-01-22 12:59:03.770658.
+Info: The fuel level is too high.
+
+#2023-01-22 13:05:13.356874.
+Info: The fuel level is too high.
+
+#2023-01-22 13:05:51.193471.
+Info: unsupported operand type(s) for -=: 'float' and 'str'.
+
+#2023-01-22 13:06:16.873440.
+Info: The fuel level is too high.
+
+#2023-01-22 13:07:35.632872.
+Info: The fuel level is too high.
+
+#2023-01-22 13:07:38.557618.
+Info: The fuel level is too high.
+
+#2023-01-22 13:07:55.277001.
+Info: The fuel level is too high.
+
+#2023-01-22 13:08:36.303773.
+Info: unsupported operand type(s) for -=: 'float' and 'str'.
+
+#2023-01-22 13:10:11.476808.
+Info: unsupported operand type(s) for -=: 'float' and 'str'.
+
+#2023-01-22 13:10:36.540861.
+Info: The fuel level is too high.
+
+#2023-01-22 13:10:50.482186.
+Info: unsupported operand type(s) for -=: 'float' and 'str'.
+
+#2023-01-22 13:14:38.085848.
+Info: The fuel level is too high.
+
+#2023-01-22 13:14:49.596284.
+Info: You need to start the engine first.
+
+#2023-01-22 13:15:28.250778.
+Info: You need to start the engine first.
+
+#2023-01-22 13:15:39.184987.
+Info: You need to start the engine first.
+
+#2023-01-22 13:16:33.366932.
+Info: You need to start the engine first.
+
+#2023-01-22 13:16:47.142178.
+Info: You need to start the engine first.
+
+#2023-01-22 13:17:52.772019.
+Info: The fuel level is too high.
+
+#2023-01-22 13:20:12.508979.
+Info: The fuel level is too high.
+
+#2023-01-22 13:20:31.190961.
+Info: The km value you inserted are too high.
+
+#2023-01-22 13:21:44.465122.
+Info: The km value you inserted is too high.
+
+#2023-01-22 13:21:56.996939.
+Info: You need to start the engine first.
+
+#2023-01-22 13:49:43.537788.
+Info: The km value you inserted is too high.
+
+#2023-01-22 14:30:24.816756.
+Info: Test passed - test_start_drive_positive, params: 300, 2.
+
+#2023-01-22 14:30:24.824999.
+Info: Test passed - test_start_drive_positive, params: 1000, 1.
+
+#2023-01-22 14:30:24.828979.
+Info: Test passed - test_start_drive_positive, params: 200, 6.
+
+#2023-01-22 14:30:45.817819.
+Info: Test passed - test_start_drive_positive, params: 1000, 1.
+
+#2023-01-22 14:30:45.821915.
+Info: Test passed - test_start_drive_positive, params: 200, 6.
+
+#2023-01-22 14:31:03.564199.
+Info: Test passed - test_start_drive_positive, params: 300, 2.
+
+#2023-01-22 14:31:03.569227.
+Info: Test passed - test_start_drive_positive, params: 1000, 1.
+
+#2023-01-22 14:31:03.574182.
+Info: Test passed - test_start_drive_positive, params: 200, 6.
+
+#2023-01-22 14:31:08.243424.
+Info: Test fails - test_start_drive_positive, params: 300, -2.
+
+#2023-01-22 14:31:08.248420.
+Info: Test passed - test_start_drive_positive, params: 1000, 1.
+
+#2023-01-22 14:31:08.252520.
+Info: Test passed - test_start_drive_positive, params: 200, 6.
+
+#2023-01-22 14:31:22.520614.
+Info: Test fails - test_start_drive_positive, params: 300, -2.
+
+#2023-01-22 14:31:22.524743.
+Info: Test passed - test_start_drive_positive, params: 1000, 1.
+
+#2023-01-22 14:31:22.528705.
+Info: Test passed - test_start_drive_positive, params: 200, 6.
+
+#2023-01-22 15:19:53.566584.
+Info: Test Fails - function - test_start_drive_positive, params: (300, -2).
+
+#2023-01-22 15:19:53.572584.
+Info: Test Passed - function - test_start_drive_positive, params: (1000, 1).
+
+#2023-01-22 15:19:53.579587.
+Info: Test Passed - function - test_start_drive_positive, params: (200, 6).
+
+#2023-01-22 17:48:33.375135.
+Info: Test Fails - function - test_start_drive_positive, params: (300, -2).
+
+#2023-01-22 17:48:33.386251.
+Info: Test Passed - function - test_start_drive_positive, params: (1000, 1).
+
+#2023-01-22 17:48:33.395339.
+Info: Test Passed - function - test_start_drive_positive, params: (200, 6).
+
+#2023-01-22 18:10:27.785432.
+Info: Test Fails, function: test_start_drive_returns_true, params: (300, '2'), Exception: The gear is not in the right type.
+
+#2023-01-22 18:10:27.795326.
+Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
+
+#2023-01-22 18:10:27.805753.
+Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
+
+#2023-01-22 18:13:07.545507.
+Info: Test Fails, function: test_start_drive_returns_false, params: (1001, 2), Exception: The km value you inserted is too high.
+
+#2023-01-22 18:13:07.561728.
+Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: assert True is False
+ +  where True = <bound method Car.start_drive of <car.car_ex.Car object at 0x00000229736873D0>>(-1, 1)
+ +    where <bound method Car.start_drive of <car.car_ex.Car object at 0x00000229736873D0>> = <car.car_ex.Car object at 0x00000229736873D0>.start_drive.
+
+#2023-01-22 18:13:07.572075.
+Info: Test Fails, function: test_start_drive_returns_false, params: (1, '6'), Exception: The gear is not in the right type.
+
+#2023-01-22 18:17:45.463038.
+Info: Test Fails, function: test_start_drive_returns_false, params: (1001, 2), Exception: DID NOT RAISE <class 'ValueError'>.
+
+#2023-01-22 18:17:45.474327.
+Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: DID NOT RAISE <class 'ValueError'>.
+
+#2023-01-22 18:17:45.486827.
+Info: Test Fails, function: test_start_drive_returns_false, params: (1, '6'), Exception: DID NOT RAISE <class 'ValueError'>.
+
+#2023-01-22 18:18:37.650160.
+Info: Test Fails, function: test_start_drive_returns_false, params: (1001, 2), Exception: DID NOT RAISE <class 'TypeError'>.
+
+#2023-01-22 18:18:37.658160.
+Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: DID NOT RAISE <class 'TypeError'>.
+
+#2023-01-22 18:18:37.669164.
+Info: Test Fails, function: test_start_drive_returns_false, params: (1, '6'), Exception: DID NOT RAISE <class 'TypeError'>.
+
+#2023-01-22 18:20:02.551690.
+Info: Test Passed, function: test_start_drive_returns_false, params: (-1, 1).
+
+#2023-01-22 18:20:02.556707.
+Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: DID NOT RAISE <class 'BaseException'>.
+
+#2023-01-22 18:22:21.314997.
+Info: Test Passed, function: test_start_drive_returns_false, params: (-1, 1).
+
+#2023-01-22 18:28:18.801654.
+Info: Test Passed, function: test_start_drive_raise_value_error.
+
+#2023-01-22 18:32:18.134058.
+Info: Test Passed, function: test_start_drive_raise_value_error.
+
+#2023-01-22 18:33:14.886042.
+Info: Test Passed, function: test_start_drive_raise_value_error.
+
+#2023-01-22 18:33:33.766454.
+Info: Test Passed, function: test_start_drive_raise_value_error.
+
+#2023-01-22 18:48:44.853706.
+Info: Test Fails, function: test_start_drive_raise_type_error, params: ('a', 3), Exception: 'Car' object has no attribute 'start_driveas'.
+
+#2023-01-22 18:48:44.862721.
+Info: Test Fails, function: test_start_drive_raise_type_error, params: (3, 'a'), Exception: 'Car' object has no attribute 'start_driveas'.
+
+#2023-01-22 18:54:02.716016.
+Info: Test Passed, function: test_start_drive_raise_over_flow, params: (123121233, 3).
+
+#2023-01-22 18:54:02.727017.
+Info: Test Passed, function: test_start_drive_raise_over_flow, params: (1, 10).
+
+#2023-01-22 18:54:35.526814.
+Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
+
+#2023-01-22 18:54:35.539284.
+Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
+
+#2023-01-22 18:55:14.630711.
+Info: Test Passed, function: test_start_drive_raise_over_flow, params: (3, 3).
+
+#2023-01-22 18:55:14.636787.
+Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.

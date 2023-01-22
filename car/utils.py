@@ -10,7 +10,6 @@ class Utils:
     @staticmethod
     def write_to_log(info: str):
         load_dotenv()
-
         """
         Name: Ofri Shapira\n
         Date: 18/1/22\n
