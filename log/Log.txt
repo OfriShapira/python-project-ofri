@@ -1,0 +1,60 @@
+
+#2023-01-22 11:30:47.127166.
+Info: The fuel level is too high.
+
+#2023-01-22 11:31:25.251307.
+Info: The fuel level is too high.
+
+#2023-01-22 11:31:59.280497.
+Info: The fuel level is too high.
+
+#2023-01-22 11:38:21.894932.
+Info: The fuel level is too high.
+
+
+#2023-01-22 11:40:28.091866.
+Info: You need to start the engine first.
+
+#2023-01-22 11:42:34.588708.
+Info: The fuel level is too high.
+
+#2023-01-22 11:45:35.426769.
+Info: The fuel level is too high.
+
+#2023-01-22 11:45:47.475300.
+Info: The fuel level is too high.
+
+#2023-01-22 11:46:12.825772.
+Info: The km value you inserted are too high.
+
+
+#2023-01-22 12:00:35.890263.
+Info: The km value you inserted are too high.
+
+
+#2023-01-22 12:15:58.902043.
+Info: You need to start the engine first.
+
+#2023-01-22 12:19:58.012138.
+Info: You need to start the engine first.
+
+#2023-01-22 12:20:28.855946.
+Info: The fuel level is too high.
+
+#2023-01-22 12:20:39.407137.
+Info: You need to start the engine first.
+
+#2023-01-22 12:20:43.503518.
+Info: You need to start the engine first.
+
+#2023-01-22 12:20:52.469449.
+Info: invalid literal for int() with base 10: 'aaaa'.
+
+#2023-01-22 12:22:21.004049.
+Info: .
+
+#2023-01-22 12:22:51.369264.
+Info: .
+
+#2023-01-22 12:24:13.202453.
+Info: .
