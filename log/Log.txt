@@ -1,874 +1,288 @@
 
-#2023-01-22 11:30:47.127166.
-Info: The fuel level is too high.
+#2023-01-23 10:38:47.325421.
+Info: Test Passed, function: test_consume_raise_type_error.
 
-#2023-01-22 11:31:25.251307.
-Info: The fuel level is too high.
+#2023-01-23 10:45:15.003412.
+Info: Test Passed, function: test_add_fuel_raise_overflow_error.
 
-#2023-01-22 11:31:59.280497.
-Info: The fuel level is too high.
+#2023-01-23 10:45:15.012415.
+Info: Test Passed, function: test_add_fuel_raise_permission_error.
 
-#2023-01-22 11:38:21.894932.
-Info: The fuel level is too high.
+#2023-01-23 10:45:15.023423.
+Info: Test Passed, function: test_add_fuel_raise_type_error.
 
+#2023-01-23 10:45:15.031932.
+Info: Test Passed, function: test_add_fuel_raise_value_error.
 
-#2023-01-22 11:40:28.091866.
-Info: You need to start the engine first.
+#2023-01-23 10:45:15.041933.
+Info: Test Passed, function: test_add_fuel_returned_value.
 
-#2023-01-22 11:42:34.588708.
-Info: The fuel level is too high.
+#2023-01-23 10:45:15.056015.
+Info: Test Passed, function: test_consume_raise_type_error.
 
-#2023-01-22 11:45:35.426769.
-Info: The fuel level is too high.
+#2023-01-23 10:45:15.065025.
+Info: Test Passed, function: test_consume_raise_value_error.
 
-#2023-01-22 11:45:47.475300.
-Info: The fuel level is too high.
-
-#2023-01-22 11:46:12.825772.
-Info: The km value you inserted are too high.
-
-
-#2023-01-22 12:00:35.890263.
-Info: The km value you inserted are too high.
-
-
-#2023-01-22 12:15:58.902043.
-Info: You need to start the engine first.
-
-#2023-01-22 12:19:58.012138.
-Info: You need to start the engine first.
-
-#2023-01-22 12:20:28.855946.
-Info: The fuel level is too high.
-
-#2023-01-22 12:20:39.407137.
-Info: You need to start the engine first.
-
-#2023-01-22 12:20:43.503518.
-Info: You need to start the engine first.
-
-#2023-01-22 12:20:52.469449.
-Info: invalid literal for int() with base 10: 'aaaa'.
-
-#2023-01-22 12:22:21.004049.
-Info: .
-
-#2023-01-22 12:22:51.369264.
-Info: .
-
-#2023-01-22 12:24:13.202453.
-Info: .
-
-#2023-01-22 12:51:46.647872.
-Info: .
-
-#2023-01-22 12:51:49.579566.
-Info: You need to start the engine first.
-
-#2023-01-22 12:59:03.770658.
-Info: The fuel level is too high.
-
-#2023-01-22 13:05:13.356874.
-Info: The fuel level is too high.
-
-#2023-01-22 13:05:51.193471.
-Info: unsupported operand type(s) for -=: 'float' and 'str'.
-
-#2023-01-22 13:06:16.873440.
-Info: The fuel level is too high.
-
-#2023-01-22 13:07:35.632872.
-Info: The fuel level is too high.
-
-#2023-01-22 13:07:38.557618.
-Info: The fuel level is too high.
-
-#2023-01-22 13:07:55.277001.
-Info: The fuel level is too high.
-
-#2023-01-22 13:08:36.303773.
-Info: unsupported operand type(s) for -=: 'float' and 'str'.
-
-#2023-01-22 13:10:11.476808.
-Info: unsupported operand type(s) for -=: 'float' and 'str'.
-
-#2023-01-22 13:10:36.540861.
-Info: The fuel level is too high.
-
-#2023-01-22 13:10:50.482186.
-Info: unsupported operand type(s) for -=: 'float' and 'str'.
-
-#2023-01-22 13:14:38.085848.
-Info: The fuel level is too high.
-
-#2023-01-22 13:14:49.596284.
-Info: You need to start the engine first.
-
-#2023-01-22 13:15:28.250778.
-Info: You need to start the engine first.
-
-#2023-01-22 13:15:39.184987.
-Info: You need to start the engine first.
-
-#2023-01-22 13:16:33.366932.
-Info: You need to start the engine first.
-
-#2023-01-22 13:16:47.142178.
-Info: You need to start the engine first.
-
-#2023-01-22 13:17:52.772019.
-Info: The fuel level is too high.
-
-#2023-01-22 13:20:12.508979.
-Info: The fuel level is too high.
-
-#2023-01-22 13:20:31.190961.
-Info: The km value you inserted are too high.
-
-#2023-01-22 13:21:44.465122.
-Info: The km value you inserted is too high.
-
-#2023-01-22 13:21:56.996939.
-Info: You need to start the engine first.
-
-#2023-01-22 13:49:43.537788.
-Info: The km value you inserted is too high.
-
-#2023-01-22 14:30:24.816756.
-Info: Test passed - test_start_drive_positive, params: 300, 2.
-
-#2023-01-22 14:30:24.824999.
-Info: Test passed - test_start_drive_positive, params: 1000, 1.
-
-#2023-01-22 14:30:24.828979.
-Info: Test passed - test_start_drive_positive, params: 200, 6.
-
-#2023-01-22 14:30:45.817819.
-Info: Test passed - test_start_drive_positive, params: 1000, 1.
-
-#2023-01-22 14:30:45.821915.
-Info: Test passed - test_start_drive_positive, params: 200, 6.
-
-#2023-01-22 14:31:03.564199.
-Info: Test passed - test_start_drive_positive, params: 300, 2.
-
-#2023-01-22 14:31:03.569227.
-Info: Test passed - test_start_drive_positive, params: 1000, 1.
-
-#2023-01-22 14:31:03.574182.
-Info: Test passed - test_start_drive_positive, params: 200, 6.
-
-#2023-01-22 14:31:08.243424.
-Info: Test fails - test_start_drive_positive, params: 300, -2.
-
-#2023-01-22 14:31:08.248420.
-Info: Test passed - test_start_drive_positive, params: 1000, 1.
-
-#2023-01-22 14:31:08.252520.
-Info: Test passed - test_start_drive_positive, params: 200, 6.
-
-#2023-01-22 14:31:22.520614.
-Info: Test fails - test_start_drive_positive, params: 300, -2.
-
-#2023-01-22 14:31:22.524743.
-Info: Test passed - test_start_drive_positive, params: 1000, 1.
-
-#2023-01-22 14:31:22.528705.
-Info: Test passed - test_start_drive_positive, params: 200, 6.
-
-#2023-01-22 15:19:53.566584.
-Info: Test Fails - function - test_start_drive_positive, params: (300, -2).
-
-#2023-01-22 15:19:53.572584.
-Info: Test Passed - function - test_start_drive_positive, params: (1000, 1).
-
-#2023-01-22 15:19:53.579587.
-Info: Test Passed - function - test_start_drive_positive, params: (200, 6).
-
-#2023-01-22 17:48:33.375135.
-Info: Test Fails - function - test_start_drive_positive, params: (300, -2).
-
-#2023-01-22 17:48:33.386251.
-Info: Test Passed - function - test_start_drive_positive, params: (1000, 1).
-
-#2023-01-22 17:48:33.395339.
-Info: Test Passed - function - test_start_drive_positive, params: (200, 6).
-
-#2023-01-22 18:10:27.785432.
-Info: Test Fails, function: test_start_drive_returns_true, params: (300, '2'), Exception: The gear is not in the right type.
-
-#2023-01-22 18:10:27.795326.
-Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
-
-#2023-01-22 18:10:27.805753.
-Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
-
-#2023-01-22 18:13:07.545507.
-Info: Test Fails, function: test_start_drive_returns_false, params: (1001, 2), Exception: The km value you inserted is too high.
-
-#2023-01-22 18:13:07.561728.
-Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: assert True is False
- +  where True = <bound method Car.start_drive of <car.car_ex.Car object at 0x00000229736873D0>>(-1, 1)
- +    where <bound method Car.start_drive of <car.car_ex.Car object at 0x00000229736873D0>> = <car.car_ex.Car object at 0x00000229736873D0>.start_drive.
-
-#2023-01-22 18:13:07.572075.
-Info: Test Fails, function: test_start_drive_returns_false, params: (1, '6'), Exception: The gear is not in the right type.
-
-#2023-01-22 18:17:45.463038.
-Info: Test Fails, function: test_start_drive_returns_false, params: (1001, 2), Exception: DID NOT RAISE <class 'ValueError'>.
-
-#2023-01-22 18:17:45.474327.
-Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: DID NOT RAISE <class 'ValueError'>.
-
-#2023-01-22 18:17:45.486827.
-Info: Test Fails, function: test_start_drive_returns_false, params: (1, '6'), Exception: DID NOT RAISE <class 'ValueError'>.
-
-#2023-01-22 18:18:37.650160.
-Info: Test Fails, function: test_start_drive_returns_false, params: (1001, 2), Exception: DID NOT RAISE <class 'TypeError'>.
-
-#2023-01-22 18:18:37.658160.
-Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: DID NOT RAISE <class 'TypeError'>.
-
-#2023-01-22 18:18:37.669164.
-Info: Test Fails, function: test_start_drive_returns_false, params: (1, '6'), Exception: DID NOT RAISE <class 'TypeError'>.
-
-#2023-01-22 18:20:02.551690.
-Info: Test Passed, function: test_start_drive_returns_false, params: (-1, 1).
-
-#2023-01-22 18:20:02.556707.
-Info: Test Fails, function: test_start_drive_returns_false, params: (-1, 1), Exception: DID NOT RAISE <class 'BaseException'>.
-
-#2023-01-22 18:22:21.314997.
-Info: Test Passed, function: test_start_drive_returns_false, params: (-1, 1).
-
-#2023-01-22 18:28:18.801654.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 18:32:18.134058.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 18:33:14.886042.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 18:33:33.766454.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 18:48:44.853706.
-Info: Test Fails, function: test_start_drive_raise_type_error, params: ('a', 3), Exception: 'Car' object has no attribute 'start_driveas'.
-
-#2023-01-22 18:48:44.862721.
-Info: Test Fails, function: test_start_drive_raise_type_error, params: (3, 'a'), Exception: 'Car' object has no attribute 'start_driveas'.
-
-#2023-01-22 18:54:02.716016.
-Info: Test Passed, function: test_start_drive_raise_over_flow, params: (123121233, 3).
-
-#2023-01-22 18:54:02.727017.
-Info: Test Passed, function: test_start_drive_raise_over_flow, params: (1, 10).
-
-#2023-01-22 18:54:35.526814.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
-
-#2023-01-22 18:54:35.539284.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
-
-#2023-01-22 18:55:14.630711.
-Info: Test Passed, function: test_start_drive_raise_over_flow, params: (3, 3).
-
-#2023-01-22 18:55:14.636787.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 21:55:11.586986.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 21:56:38.229160.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 21:57:02.062560.
-Info: Test Fails, function: test_start_drive_raise_value_error, Exception: name 'envsdfdsiron' is not defined.
-
-#2023-01-22 22:02:29.485731.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 22:03:44.854892.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: module pytest has no attribute raisessss.
-
-#2023-01-22 22:04:15.447808.
-Info: Test Fails, function: test_stop_drive_raise_value_error, Exception: module pytest has no attribute raisessss.
-
-#2023-01-22 22:05:55.511330.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 22:06:11.745534.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 22:06:38.411131.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 22:06:58.312949.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 22:08:04.544243.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 22:08:04.550243.
-Info: Test Fails, function: test_stop_drive_raise_value_error, Exception: argument of type 'type' is not iterable.
-
-#2023-01-22 22:30:46.286714.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 22:34:13.681010.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 22:35:43.787279.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 22:36:10.841001.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 22:37:39.142373.
-Info: Test Passed, function: test_stop_engine_value, params: (1, 50, 20, 490).
-
-#2023-01-22 22:39:08.673864.
-Info: Test Passed, function: test_stop_engine_value, params: (1, 50, 20, 490).
-
-#2023-01-22 22:39:08.683925.
-Info: Test Fails, function: test_stop_engine_value, Exception: assert 49.05 == 50
- +  where 49.05 = <car.car_ex.Car object at 0x000002BD69083E20>.fuel.
-
-#2023-01-22 22:50:21.736252.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: 100, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 22:50:21.748176.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: -100, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 22:50:59.731671.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
-
-#2023-01-22 22:50:59.743663.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: -100, Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 22:51:29.964825.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
-
-#2023-01-22 22:51:29.975885.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: -100, Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 22:59:05.186535.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
-
-#2023-01-22 22:59:05.196048.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 1.
-
-#2023-01-22 23:01:23.527094.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
-
-#2023-01-22 23:01:58.346391.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
-
-#2023-01-22 23:02:40.891701.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
-
-#2023-01-22 23:03:10.763163.
-Info: Test Passed, function: test_add_fuel_raise_permission_error, params: 5.
-
-#2023-01-22 23:05:20.261379.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: .
-
-#2023-01-22 23:05:20.273364.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: 5.
-
-#2023-01-22 23:05:20.282453.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: The fuel level is too high.
-
-#2023-01-22 23:05:20.292363.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: [].
-
-#2023-01-22 23:08:10.568535.
-Info: Test Passed, function: test_add_fuel_raise_value_error, params: -1.
-
-#2023-01-22 23:15:36.780991.
-Info: Test Passed, function: test_consume_returned_value, params: 50.
-
-#2023-01-22 23:15:36.792594.
-Info: Test Passed, function: test_consume_returned_value, params: 100.
-
-#2023-01-22 23:16:01.759979.
-Info: Test Passed, function: test_consume_returned_value, params: 50.
-
-#2023-01-22 23:16:01.771977.
-Info: Test Passed, function: test_consume_returned_value, params: 100.
-
-#2023-01-22 23:16:01.781082.
-Info: Test Passed, function: test_consume_returned_value, params: 0.
-
-#2023-01-22 23:20:36.860823.
-Info: Test Passed, function: test_consume_returned_value, params: 50.
-
-#2023-01-22 23:20:36.869779.
-Info: Test Passed, function: test_consume_returned_value, params: 100.
-
-#2023-01-22 23:20:36.879903.
-Info: Test Passed, function: test_consume_returned_value, params: 0.
-
-#2023-01-22 23:23:09.396442.
-Info: Test Passed, function: test_consume_returned_value, params: 50.
-
-#2023-01-22 23:23:09.406441.
-Info: Test Passed, function: test_consume_returned_value, params: 100.
-
-#2023-01-22 23:23:09.417506.
-Info: Test Fails, function: test_consume_returned_value, params: 0, Exception: assert 50.0 == 50.06
- +  where 50.0 = <car.car_ex.Car object at 0x0000015F177A19D0>.fuel.
-
-#2023-01-22 23:26:53.469240.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
-
-#2023-01-22 23:27:44.695592.
-Info: Test Passed, function: test_consume_raise_value_error, params: -1.
-
-#2023-01-22 23:28:39.315406.
-Info: Test Passed, function: test_consume_raise_type_error, params: a.
-
-#2023-01-22 23:30:52.290532.
+#2023-01-23 10:45:15.074034.
 Info: Test Passed, function: test_consume_returned_value.
 
-#2023-01-22 23:31:42.042387.
-Info: Test Passed, function: test_start_drive_returns_true, params: (300, 2).
+#2023-01-23 10:45:15.082934.
+Info: Test Passed, function: test_get_current_car_status_returned_value.
 
-#2023-01-22 23:31:42.053907.
-Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
+#2023-01-23 10:45:15.092936.
+Info: Test Passed, function: test_start_drive_raise_over_flow.
 
-#2023-01-22 23:31:42.065906.
-Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
-
-#2023-01-22 23:31:42.075905.
+#2023-01-23 10:45:15.105041.
 Info: Test Passed, function: test_start_drive_raise_value_error.
 
-#2023-01-22 23:31:42.085048.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
+#2023-01-23 10:45:15.115030.
+Info: Test Passed, function: test_start_drive_returns_true.
 
-#2023-01-22 23:31:42.096050.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
-
-#2023-01-22 23:31:42.106021.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 23:31:42.118121.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 23:31:42.127121.
-Info: Test Passed, function: test_start_engine_value.
-
-#2023-01-22 23:31:42.138995.
+#2023-01-23 10:45:15.124940.
 Info: Test Passed, function: test_start_engine_raise_value_error.
 
-#2023-01-22 23:31:42.147972.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 23:31:42.160192.
-Info: Test Passed, function: test_stop_engine_raise_value_error.
-
-#2023-01-22 23:31:42.204825.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: 100, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:31:42.212868.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: 1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:31:42.224770.
-Info: Test Passed, function: test_add_fuel_raise_permission_error, params: 5.
-
-#2023-01-22 23:31:42.234277.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: .
-
-#2023-01-22 23:31:42.243390.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: 5.
-
-#2023-01-22 23:31:42.255798.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: The fuel level is too high.
-
-#2023-01-22 23:31:42.265800.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: [].
-
-#2023-01-22 23:31:42.275926.
-Info: Test Passed, function: test_add_fuel_raise_value_error, params: -1.
-
-#2023-01-22 23:31:42.287798.
-Info: Test Passed, function: test_consume_returned_value.
-
-#2023-01-22 23:31:42.297130.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
-
-#2023-01-22 23:31:42.306161.
-Info: Test Passed, function: test_consume_raise_value_error, params: -1.
-
-#2023-01-22 23:31:42.316315.
-Info: Test Passed, function: test_consume_raise_type_error, params: a.
-
-#2023-01-22 23:33:04.099593.
-Info: Test Passed, function: test_start_drive_returns_true, params: (300, 2).
-
-#2023-01-22 23:33:04.109704.
-Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
-
-#2023-01-22 23:33:04.118423.
-Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
-
-#2023-01-22 23:33:04.127824.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 23:33:04.137777.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
-
-#2023-01-22 23:33:04.148776.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
-
-#2023-01-22 23:33:04.161778.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 23:33:04.174172.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 23:33:04.184074.
+#2023-01-23 10:45:15.136065.
 Info: Test Passed, function: test_start_engine_value.
 
-#2023-01-22 23:33:04.193075.
-Info: Test Passed, function: test_start_engine_raise_value_error.
-
-#2023-01-22 23:33:04.201597.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 23:33:04.210683.
-Info: Test Passed, function: test_stop_engine_raise_value_error.
-
-#2023-01-22 23:33:04.243023.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: 100, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:33:04.251922.
-Info: Test Fails, function: test_add_fuel_raise_overflow_error, params: 1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:33:04.261923.
-Info: Test Passed, function: test_add_fuel_raise_permission_error, params: 5.
-
-#2023-01-22 23:33:04.271070.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: .
-
-#2023-01-22 23:33:04.281008.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: 5.
-
-#2023-01-22 23:33:04.290896.
-Info: Test Passed, function: test_add_fuel_raise_type_error, params: [].
-
-#2023-01-22 23:33:04.299277.
-Info: Test Passed, function: test_add_fuel_raise_value_error, params: -1.
-
-#2023-01-22 23:33:04.309923.
-Info: Test Passed, function: test_consume_returned_value.
-
-#2023-01-22 23:33:04.318225.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
-
-#2023-01-22 23:33:04.327220.
-Info: Test Passed, function: test_consume_raise_value_error, params: -1.
-
-#2023-01-22 23:33:04.335439.
-Info: Test Passed, function: test_consume_raise_type_error, params: a.
-
-#2023-01-22 23:35:13.654924.
-Info: Test Passed, function: test_start_drive_returns_true, params: (300, 2).
-
-#2023-01-22 23:35:13.665037.
-Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
-
-#2023-01-22 23:35:13.674921.
-Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
-
-#2023-01-22 23:35:13.684015.
-Info: Test Passed, function: test_start_drive_raise_value_error.
-
-#2023-01-22 23:35:13.693920.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
-
-#2023-01-22 23:35:13.701884.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
-
-#2023-01-22 23:35:13.712881.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 23:35:13.725956.
+#2023-01-23 10:45:15.147063.
 Info: Test Passed, function: test_stop_drive_raise_value_error.
 
-#2023-01-22 23:35:13.735170.
-Info: Test Passed, function: test_start_engine_value.
+#2023-01-23 10:45:15.159059.
+Info: Test Passed, function: test_stop_drive_returned_value.
 
-#2023-01-22 23:35:13.744141.
-Info: Test Passed, function: test_start_engine_raise_value_error.
-
-#2023-01-22 23:35:13.753708.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 23:35:13.762850.
+#2023-01-23 10:45:15.170061.
 Info: Test Passed, function: test_stop_engine_raise_value_error.
 
-#2023-01-22 23:35:13.796438.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
+#2023-01-23 10:45:15.181060.
+Info: Test Passed, function: test_stop_engine_value.
 
-#2023-01-22 23:35:13.806666.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 1.
+#2023-01-23 10:55:46.038742.
+Info: Test Passed, function: test_add_fuel_raise_overflow_error.
 
-#2023-01-22 23:35:13.815644.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
+#2023-01-23 10:55:46.051410.
+Info: Test Passed, function: test_add_fuel_raise_permission_error.
 
-#2023-01-22 23:35:13.824641.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: , Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 10:55:46.061456.
+Info: Test Passed, function: test_add_fuel_raise_type_error.
 
-#2023-01-22 23:35:13.834326.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: 5, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 10:55:46.071520.
+Info: Test Passed, function: test_add_fuel_raise_value_error.
 
-#2023-01-22 23:35:13.843325.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 10:55:46.080521.
+Info: Test Passed, function: test_add_fuel_returned_value.
 
-#2023-01-22 23:35:13.853611.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: [], Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 10:55:46.095454.
+Info: Test Passed, function: test_consume_raise_type_error.
 
-#2023-01-22 23:35:13.862642.
-Info: Test Fails, function: test_add_fuel_raise_value_error, params: -1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 10:55:46.106436.
+Info: Test Passed, function: test_consume_raise_value_error.
 
-#2023-01-22 23:35:13.872644.
+#2023-01-23 10:55:46.116461.
 Info: Test Passed, function: test_consume_returned_value.
 
-#2023-01-22 23:35:13.883651.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
+#2023-01-23 10:55:46.125455.
+Info: Test Passed, function: test_get_current_car_status_returned_value.
 
-#2023-01-22 23:35:13.892554.
-Info: Test Passed, function: test_consume_raise_value_error, params: -1.
+#2023-01-23 10:55:46.135442.
+Info: Test Passed, function: test_start_drive_raise_over_flow.
 
-#2023-01-22 23:35:13.903562.
-Info: Test Passed, function: test_consume_raise_type_error, params: a.
-
-#2023-01-22 23:35:59.087618.
-Info: Test Passed, function: test_add_fuel_returned_value, params: (1, 50, 20, 490).
-
-#2023-01-22 23:35:59.097622.
-Info: Test Fails, function: test_add_fuel_returned_value, Exception: assert 49.05 == 50
- +  where 49.05 = <car.car_ex.Car object at 0x000002525E6D4670>.fuel.
-
-#2023-01-22 23:36:07.159095.
-Info: Test Passed, function: test_start_drive_returns_true, params: (300, 2).
-
-#2023-01-22 23:36:07.171040.
-Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
-
-#2023-01-22 23:36:07.181134.
-Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
-
-#2023-01-22 23:36:07.190449.
+#2023-01-23 10:55:46.150065.
 Info: Test Passed, function: test_start_drive_raise_value_error.
 
-#2023-01-22 23:36:07.198441.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
+#2023-01-23 10:55:46.160141.
+Info: Test Passed, function: test_start_drive_returns_true.
 
-#2023-01-22 23:36:07.209467.
-Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
-
-#2023-01-22 23:36:07.217817.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 23:36:07.231115.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 23:36:07.241483.
-Info: Test Passed, function: test_start_engine_value.
-
-#2023-01-22 23:36:07.249346.
+#2023-01-23 10:55:46.170149.
 Info: Test Passed, function: test_start_engine_raise_value_error.
 
-#2023-01-22 23:36:07.259461.
-Info: Test Passed, function: test_stop_engine_value.
+#2023-01-23 10:55:46.181127.
+Info: Test Passed, function: test_start_engine_value.
 
-#2023-01-22 23:36:07.267680.
+#2023-01-23 10:55:46.192146.
+Info: Test Passed, function: test_stop_drive_raise_value_error.
+
+#2023-01-23 10:55:46.202124.
+Info: Test Passed, function: test_stop_drive_returned_value.
+
+#2023-01-23 10:55:46.212127.
 Info: Test Passed, function: test_stop_engine_raise_value_error.
 
-#2023-01-22 23:36:07.276771.
-Info: Test Passed, function: test_add_fuel_returned_value, params: (1, 50, 20, 490).
+#2023-01-23 10:55:46.222214.
+Info: Test Passed, function: test_stop_engine_value.
 
-#2023-01-22 23:36:07.287935.
-Info: Test Fails, function: test_add_fuel_returned_value, Exception: assert 49.05 == 50
- +  where 49.05 = <car.car_ex.Car object at 0x000001C82CBE7010>.fuel.
-
-#2023-01-22 23:36:07.295934.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
-
-#2023-01-22 23:36:07.305593.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 1.
-
-#2023-01-22 23:36:07.314508.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
-
-#2023-01-22 23:36:07.324242.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: , Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:36:07.333770.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: 5, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:36:07.342896.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:36:07.352883.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: [], Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:36:07.361471.
-Info: Test Fails, function: test_add_fuel_raise_value_error, params: -1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:36:07.370357.
-Info: Test Passed, function: test_consume_returned_value.
-
-#2023-01-22 23:36:07.378359.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
-
-#2023-01-22 23:36:07.387055.
-Info: Test Passed, function: test_consume_raise_value_error, params: -1.
-
-#2023-01-22 23:36:07.396315.
-Info: Test Passed, function: test_consume_raise_type_error, params: a.
-
-#2023-01-22 23:37:29.929987.
+#2023-01-23 11:13:51.841482.
 Info: Test Passed, function: test_start_drive_returns_true, params: (300, 2).
 
-#2023-01-22 23:37:29.939683.
+#2023-01-23 11:13:51.854541.
 Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
 
-#2023-01-22 23:37:29.948662.
+#2023-01-23 11:13:51.868549.
 Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
 
-#2023-01-22 23:37:29.958564.
+#2023-01-23 11:13:51.876714.
 Info: Test Passed, function: test_start_drive_raise_value_error.
 
-#2023-01-22 23:37:29.972566.
+#2023-01-23 11:13:51.885367.
 Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
 
-#2023-01-22 23:37:29.980767.
+#2023-01-23 11:13:51.894804.
 Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
 
-#2023-01-22 23:37:29.989921.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-22 23:37:30.004225.
-Info: Test Passed, function: test_stop_drive_raise_value_error.
-
-#2023-01-22 23:37:30.013297.
-Info: Test Passed, function: test_start_engine_value.
-
-#2023-01-22 23:37:30.022601.
-Info: Test Passed, function: test_start_engine_raise_value_error.
-
-#2023-01-22 23:37:30.031339.
-Info: Test Passed, function: test_stop_engine_value.
-
-#2023-01-22 23:37:30.041726.
-Info: Test Passed, function: test_stop_engine_raise_value_error.
-
-#2023-01-22 23:37:30.050791.
-Info: Test Passed, function: test_add_fuel_returned_value, params: (1, 50, 20, 490).
-
-#2023-01-22 23:37:30.059716.
-Info: Test Fails, function: test_add_fuel_returned_value, Exception: assert 49.05 == 50
- +  where 49.05 = <car.car_ex.Car object at 0x000001F2E20D44F0>.fuel.
-
-#2023-01-22 23:37:30.069633.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
-
-#2023-01-22 23:37:30.078258.
-Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 1.
-
-#2023-01-22 23:37:30.087262.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
-
-#2023-01-22 23:37:30.095922.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: , Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:37:30.105829.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: 5, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:37:30.114269.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:37:30.124359.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: [], Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:37:30.134360.
-Info: Test Fails, function: test_add_fuel_raise_value_error, params: -1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-22 23:37:30.143334.
-Info: Test Passed, function: test_consume_returned_value.
-
-#2023-01-22 23:37:30.152379.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
-
-#2023-01-22 23:37:30.161888.
-Info: Test Passed, function: test_consume_raise_value_error, params: -1.
-
-#2023-01-22 23:37:30.170123.
-Info: Test Passed, function: test_consume_raise_type_error, params: a.
-
-#2023-01-23 00:01:30.077219.
-Info: Test Fails, function: test_start_drive_raise_over_flow, params: (3, 3), Exception: DID NOT RAISE <class 'OverflowError'>.
-
-#2023-01-23 00:03:07.065213.
+#2023-01-23 11:13:51.902902.
 Info: Test Passed, function: test_start_drive_raise_over_flow, params: (3, 7).
 
-#2023-01-23 00:26:08.665158.
-Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
+#2023-01-23 11:13:51.914967.
+Info: Test Passed, function: test_stop_drive_raise_value_error.
 
-#2023-01-23 00:26:50.555526.
-Info: Test Fails, function: test_add_fuel_raise_value_error, params: -1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 11:13:51.927881.
+Info: Test Passed, function: test_start_engine_value.
 
-#2023-01-23 00:27:36.976782.
-Info: Test Fails, function: test_add_fuel_raise_value_error, params: -1, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
+#2023-01-23 11:13:51.936878.
+Info: Test Passed, function: test_start_engine_raise_value_error.
 
-#2023-01-23 00:27:56.444722.
-Info: Test Passed, function: test_add_fuel_raise_value_error, params: -1.
+#2023-01-23 11:13:51.945875.
+Info: Test Passed, function: test_stop_engine_value.
 
-#2023-01-23 00:29:28.917954.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
+#2023-01-23 11:13:51.957876.
+Info: Test Passed, function: test_stop_engine_raise_value_error.
 
-#2023-01-23 00:32:19.612189.
-Info: Test Fails, function: test_add_fuel_raise_permission_error, params: 5, Exception: The fuel level is too high.
+#2023-01-23 11:13:51.970327.
+Info: Test Passed, function: test_add_fuel_returned_value, params: (1, 50, 20, 490).
 
-#2023-01-23 00:34:12.426917.
+#2023-01-23 11:13:51.980849.
+Info: Test Fails, function: test_add_fuel_returned_value, Exception: assert 49.05 == 50
+ +  where 49.05 = <car.car_ex.Car object at 0x0000022DE4964670>.fuel.
+
+#2023-01-23 11:13:51.991068.
+Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
+
+#2023-01-23 11:13:51.999068.
+Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 1.
+
+#2023-01-23 11:13:52.013361.
 Info: Test Passed, function: test_add_fuel_raise_permission_error, params: 5.
 
-#2023-01-23 00:34:39.363681.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: , Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-23 00:34:39.374115.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: 5, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-23 00:34:39.384108.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-23 00:34:39.395136.
-Info: Test Fails, function: test_add_fuel_raise_type_error, params: [], Exception: You must to stop the driving, and turn the engine off if you want to add fuel.
-
-#2023-01-23 00:35:30.201488.
+#2023-01-23 11:13:52.029272.
 Info: Test Passed, function: test_add_fuel_raise_type_error, params: .
 
-#2023-01-23 00:35:30.212876.
+#2023-01-23 11:13:52.044268.
 Info: Test Passed, function: test_add_fuel_raise_type_error, params: 5.
 
-#2023-01-23 00:35:30.224891.
+#2023-01-23 11:13:52.057623.
 Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: The fuel level is too high.
 
-#2023-01-23 00:35:30.235878.
+#2023-01-23 11:13:52.072632.
 Info: Test Passed, function: test_add_fuel_raise_type_error, params: [].
 
-#2023-01-23 00:36:19.520064.
+#2023-01-23 11:13:52.084834.
+Info: Test Passed, function: test_add_fuel_raise_value_error, params: -1.
+
+#2023-01-23 11:13:52.093834.
+Info: Test Passed, function: test_consume_returned_value, params: (50, 47.5).
+
+#2023-01-23 11:13:52.103834.
+Info: Test Passed, function: test_consume_returned_value, params: (100, 45.0).
+
+#2023-01-23 11:13:52.114921.
+Info: Test Fails, function: test_consume_returned_value, params: (0, 50.06), Exception: assert 50.0 == 50.06
+ +  where 50.0 = <car.car_ex.Car object at 0x0000022DE4967970>.fuel.
+
+#2023-01-23 11:13:52.127834.
 Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
 
-#2023-01-23 09:06:49.766152.
-Info: Test Fails, function: test_consume_raise_type_error, params: a, Exception: '<' not supported between instances of 'str' and 'int'.
+#2023-01-23 11:13:52.141839.
+Info: Test Passed, function: test_consume_raise_value_error, params: -1.
 
-#2023-01-23 09:07:18.053218.
-Info: Test Fails, function: test_consume_raise_type_error, params: a, Exception: '<' not supported between instances of 'str' and 'int'.
+#2023-01-23 11:13:52.157144.
+Info: Test Passed, function: test_consume_raise_type_error, params: a.
 
-#2023-01-23 09:07:46.395349.
-Info: Test Fails, function: test_consume_raise_type_error, params: a, Exception: '<' not supported between instances of 'str' and 'int'.
+#2023-01-23 11:13:52.171228.
+Info: Test Passed, function: test_get_current_car_status_returned_value.
+
+#2023-01-23 11:16:12.032752.
+Info: Test Passed, function: test_start_drive_returns_true, params: (300, 2).
+
+#2023-01-23 11:16:12.042751.
+Info: Test Passed, function: test_start_drive_returns_true, params: (1000, 1).
+
+#2023-01-23 11:16:12.055779.
+Info: Test Passed, function: test_start_drive_returns_true, params: (200, 6).
+
+#2023-01-23 11:16:12.065780.
+Info: Test Passed, function: test_start_drive_raise_value_error.
+
+#2023-01-23 11:16:12.078360.
+Info: Test Passed, function: test_start_drive_raise_type_error, params: ('a', 3).
+
+#2023-01-23 11:16:12.089356.
+Info: Test Passed, function: test_start_drive_raise_type_error, params: (3, 'a').
+
+#2023-01-23 11:16:12.098337.
+Info: Test Passed, function: test_start_drive_raise_over_flow, params: (3, 7).
+
+#2023-01-23 11:16:12.112360.
+Info: Test Passed, function: test_stop_drive_raise_value_error.
+
+#2023-01-23 11:16:12.122333.
+Info: Test Passed, function: test_start_engine_value.
+
+#2023-01-23 11:16:12.134431.
+Info: Test Passed, function: test_start_engine_raise_value_error.
+
+#2023-01-23 11:16:12.143450.
+Info: Test Passed, function: test_stop_engine_value.
+
+#2023-01-23 11:16:12.154441.
+Info: Test Passed, function: test_stop_engine_raise_value_error.
+
+#2023-01-23 11:16:12.163529.
+Info: Test Passed, function: test_add_fuel_returned_value, params: (1, 50, 20, 490).
+
+#2023-01-23 11:16:12.174891.
+Info: Test Fails, function: test_add_fuel_returned_value, Exception: assert 49.05 == 50
+ +  where 49.05 = <car.car_ex.Car object at 0x000001F2DE716770>.fuel.
+
+#2023-01-23 11:16:12.185504.
+Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 100.
+
+#2023-01-23 11:16:12.196417.
+Info: Test Passed, function: test_add_fuel_raise_overflow_error, params: 1.
+
+#2023-01-23 11:16:12.207497.
+Info: Test Passed, function: test_add_fuel_raise_permission_error, params: 5.
+
+#2023-01-23 11:16:12.218504.
+Info: Test Passed, function: test_add_fuel_raise_type_error, params: .
+
+#2023-01-23 11:16:12.229524.
+Info: Test Passed, function: test_add_fuel_raise_type_error, params: 5.
+
+#2023-01-23 11:16:12.242593.
+Info: Test Fails, function: test_add_fuel_raise_type_error, params: True, Exception: The fuel level is too high.
+
+#2023-01-23 11:16:12.253439.
+Info: Test Passed, function: test_add_fuel_raise_type_error, params: [].
+
+#2023-01-23 11:16:12.265539.
+Info: Test Passed, function: test_add_fuel_raise_value_error, params: -1.
+
+#2023-01-23 11:16:12.278443.
+Info: Test Passed, function: test_consume_returned_value, params: (50, 47.5).
+
+#2023-01-23 11:16:12.294444.
+Info: Test Passed, function: test_consume_returned_value, params: (100, 45.0).
+
+#2023-01-23 11:16:12.308108.
+Info: Test Passed, function: test_consume_returned_value, params: (0, 50).
+
+#2023-01-23 11:16:12.318107.
+Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
+
+#2023-01-23 11:16:12.330162.
+Info: Test Passed, function: test_consume_raise_value_error, params: -1.
+
+#2023-01-23 11:16:12.344173.
+Info: Test Passed, function: test_consume_raise_type_error, params: a.
+
+#2023-01-23 11:16:12.355648.
+Info: Test Passed, function: test_get_current_car_status_returned_value.

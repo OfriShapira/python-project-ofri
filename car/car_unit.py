@@ -12,7 +12,6 @@ class CarTestCase(unittest.TestCase):
     def setUp(self):
         """
         Set up the test case
-        :return: None
         """
         load_dotenv()
         self.c = Car()
@@ -23,7 +22,7 @@ class CarTestCase(unittest.TestCase):
         """
         try:
             self.assertEqual(self.c.start_drive(), True)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except BaseException:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3]))
@@ -36,7 +35,7 @@ class CarTestCase(unittest.TestCase):
             self.c.start_drive()
             with self.assertRaises(ValueError):
                 self.c.start_drive()
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
@@ -57,7 +56,7 @@ class CarTestCase(unittest.TestCase):
         try:
             with self.assertRaises(OverflowError):
                 self.c.start_drive(3, 7)
-            Utils.write_to_log(environ["TEST_PASS_NI_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
@@ -68,7 +67,7 @@ class CarTestCase(unittest.TestCase):
         try:
             self.c.start_drive()
             self.assertTrue(self.c.stop_drive())
-            Utils.write_to_log(environ["TEST_PASS_NI_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
@@ -104,7 +103,7 @@ class CarTestCase(unittest.TestCase):
             self.c.start_engine()
             with self.assertRaises(ValueError):
                 self.c.start_engine()
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -117,7 +116,7 @@ class CarTestCase(unittest.TestCase):
 
             self.c.start_engine()
             self.assertTrue(self.c.stop_engine())
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except AssertionError as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -130,7 +129,7 @@ class CarTestCase(unittest.TestCase):
             self.c.is_engine_on = False
             with self.assertRaises(ValueError):
                 self.c.stop_engine()
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -145,7 +144,7 @@ class CarTestCase(unittest.TestCase):
             self.c.is_engine_on = False
             self.c.add_fuel(1)
             self.assertEqual(self.c.fuel, 50)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -157,7 +156,7 @@ class CarTestCase(unittest.TestCase):
         try:
             with self.assertRaises(OverflowError):
                 self.c.add_fuel(100)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except AssertionError as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -170,7 +169,7 @@ class CarTestCase(unittest.TestCase):
             with self.assertRaises(PermissionError):
                 self.c.start_drive(50, 5)
                 self.c.add_fuel(5)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except AssertionError as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -186,10 +185,10 @@ class CarTestCase(unittest.TestCase):
 
             with self.assertRaises(TypeError):
                 self.c.add_fuel('a')
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except AssertionError as a:
-            Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
+            Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], a))
 
     def test_add_fuel_raise_value_error(self):
         """
@@ -201,7 +200,7 @@ class CarTestCase(unittest.TestCase):
             self.c.stop_engine()
             with self.assertRaises(ValueError):
                 self.c.add_fuel(-1)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except AssertionError as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
@@ -213,61 +212,57 @@ class CarTestCase(unittest.TestCase):
         try:
             self.assertTrue(self.c.consume(50))
             self.assertTrue(self.c.fuel == 47.5)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
         except BaseException as b:
             Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
+    def test_consume_raise_overflow_error(self):
+        """
+       Test to check if the method raises the right exception
+       """
+        try:
+            with self.assertRaises(OverflowError):
+                self.c.consume(10001)
+                Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
-def test_consume_raise_overflow_error(self):
-    """
-   Test to check if the method raises the right exception
-   """
-    try:
-        with self.assertRaises(OverflowError):
-            self.c.consume(10001)
-            Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+        except BaseException as b:
+            Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
-    except AssertionError as b:
-        Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
+    def test_consume_raise_value_error(self):
+        """
+       Test to check if the method raises the right exception
+       """
+        try:
+            with self.assertRaises(ValueError):
+                self.c.consume(-1)
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
+        except BaseException as b:
+            Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
-def test_consume_raise_value_error(self):
-    """
-   Test to check if the method raises the right exception
-   """
-    try:
-        with self.assertRaises(ValueError):
-            self.c.consume(-1)
-        Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
+    def test_consume_raise_type_error(self):
+        """
+        Test to check if the method raises the right exception
+        """
+        try:
+            with self.assertRaises(TypeError):
+                self.c.consume('km')
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
-    except BaseException as b:
-        Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
+        except BaseException as b:
+            Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
+    def test_get_current_car_status_returned_value(self):
+        """
+        Test to check if the method returns the right value
+        """
+        try:
+            self.assertIsInstance(self.c.get_current_car_status(), str)
+            Utils.write_to_log(environ["TEST_PASS_NO_PARAMS"].format(inspect.stack()[0][3]))
 
-def test_consume_raise_type_error(self):
-    """
-    Test to check if the method raises the right exception
-    """
-    try:
-        with self.assertRaises(ZeroDivisionError):
-            self.c.consume('km')
-        Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
-
-    except BaseException as b:
-        Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
-
-
-def test_get_current_car_status_returned_value(self):
-    """
-    Test to check if the method returns the right value
-    """
-    try:
-        self.assertIsInstance(self.c.get_current_car_status(), str)
-        Utils.write_to_log(environ["TEST_PASS_WITH_PARAMS"].format(inspect.stack()[0][3]))
-
-    except BaseException as b:
-        Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
+        except BaseException as b:
+            Utils.write_to_log(environ["TEST_FAIL_NO_PARAMS"].format(inspect.stack()[0][3], b))
 
 
 if __name__ == '__main__':

@@ -4,6 +4,9 @@ from dotenv import load_dotenv
 
 
 class Car:
+    """
+    Class represents a car
+    """
     load_dotenv()
 
     def __init__(self):
@@ -18,8 +21,8 @@ class Car:
         self.is_drive_on = False
         self.is_engine_on = False
 
-    # t1 -
-    def start_drive(self, current_road_km=1, current_gear=1):
+    def start_drive(self, current_road_km=int(environ["DEFAULT_VALUE_KM"]),
+                    current_gear=int(environ["DEFAULT_VALUE_GEAR"])):
         """
         Name: Ofri Shapira\n
         Date: 22/1/22\n
@@ -28,7 +31,7 @@ class Car:
         :param current_gear: the gear value
         :return: true if the car complete the drive
         """
-        # check fot the validity of the function arguments
+        # check fot the type validity of the method arguments
         if not isinstance(current_road_km, (int, float)):
             raise TypeError(environ["TYPE_ERROR"].format('km'))
         if not isinstance(current_gear, (int, float)):
@@ -38,7 +41,7 @@ class Car:
         if not self.is_engine_on:
             self.start_engine()
 
-        # If the drive mode is on - throw exception
+        # if the drive mode is on - throw exception
         if self.is_drive_on:
             raise ValueError(environ["DRIVE_ERROR_1"])
 
@@ -61,11 +64,14 @@ class Car:
         """
         Name: Ofri Shapira\n
         Date: 22/1/22\n
-        Method stop the drive mode
+        Method to stop the drive mode
         :return: True if the drive stopped successfully
         """
+        # if the drive mode is already off, throw an error
         if not self.is_drive_on:
             raise ValueError(environ["DRIVE_ERROR_2"])
+
+        # stop the drive
         else:
             print(environ["DRIVE_FINISHED"])
             self.is_drive_on = False
@@ -75,11 +81,14 @@ class Car:
         """
         Name: Ofri Shapira\n
         Date: 22/1/22\n
-        Method to start the engine.
+        Method to start the engine
         :return: True if the engine start successfully
         """
+        # if the engine is already on, throw error
         if self.is_engine_on:
             raise ValueError(environ["ENGINE_ERROR_2"])
+
+        # start the engine
         else:
             print(environ["ENGINE_START"])
             self.is_engine_on = True
@@ -92,8 +101,11 @@ class Car:
         Method to stop the engine.
         :return: True if the engine stopped successfully
         """
+        # if the engine is already off, throw error
         if not self.is_engine_on:
             raise ValueError(environ["ENGINE_ERROR_1"])
+
+        # stop the engine
         else:
             self.is_engine_on = False
             print(environ["ENGINE_STOP"])
@@ -107,7 +119,6 @@ class Car:
         :param fuel_to_add: the amount of fuel to add
         :return: True if the fuel been added successfully
         """
-
         #  check if the engine is off
         if self.is_drive_on or self.is_engine_on:
             raise PermissionError(environ["PERMISSION_ERROR"])
@@ -161,7 +172,7 @@ class Car:
         """
         Name: Ofri Shapira\n
         Date: 22/1/22\n
-        Method to get the current car status.
+        Method to get the current car status
         :return: String represent the car status
         """
         return environ["CURRENT_STATUS"].format(self.fuel, self.money)

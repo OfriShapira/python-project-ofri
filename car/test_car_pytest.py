@@ -18,7 +18,7 @@ def car():
 @pytest.mark.parametrize("current_km, gear", [(300, 2), (1000, 1), (200, 6)])
 def test_start_drive_returns_true(car, current_km, gear):
     """
-    Test to check if the method returns the right value
+    Test to check if the method returns the true
     :param car: the car object
     :param current_km: the kilometers value dor the drive
     :param gear: the gear value for the drive
@@ -284,7 +284,7 @@ def test_add_fuel_raise_value_error(car, fuel_to_add):
 
 
 @pytest.mark.consume
-@pytest.mark.parametrize("km, result_fuel", [(50, 47.5), (100, 45.0), (0, 50.06)])
+@pytest.mark.parametrize("km, result_fuel", [(50, 47.5), (100, 45.0), (0, 50)])
 def test_consume_returned_value(car, km, result_fuel):
     """
    Test to check if the method return the right value
