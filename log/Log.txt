@@ -863,3 +863,12 @@ Info: Test Passed, function: test_add_fuel_raise_type_error, params: [].
 
 #2023-01-23 00:36:19.520064.
 Info: Test Passed, function: test_consume_raise_overflow_error, params: 10001.
+
+#2023-01-23 09:06:49.766152.
+Info: Test Fails, function: test_consume_raise_type_error, params: a, Exception: '<' not supported between instances of 'str' and 'int'.
+
+#2023-01-23 09:07:18.053218.
+Info: Test Fails, function: test_consume_raise_type_error, params: a, Exception: '<' not supported between instances of 'str' and 'int'.
+
+#2023-01-23 09:07:46.395349.
+Info: Test Fails, function: test_consume_raise_type_error, params: a, Exception: '<' not supported between instances of 'str' and 'int'.
